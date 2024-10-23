@@ -1,0 +1,9 @@
+CONTRASEÑA: numeroPokemon+mensajePokemon+solucionMensaje
+
+/////-----MENSAJE------///////
+Primera pista para el/la
+Aventurera, revisa bien tus pasos no
+Limites tus movimientos y
+Elige bien a tu pokemon.
+Tan cerca de llegar al premio final pero
+Aun quedan unos pasos.
