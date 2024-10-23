@@ -3,18 +3,20 @@ header{
     background-color: #d0cfcf;
     border-radius: 0.5em;
 }
+t1{
+    font-weight: bold;
+    font-size: 3em;
+}
+p{
+    font-size: 1.5em;
+}
 section{
     margin: 1em 1em 1em 1em;
     display: flex;
     align-content: center;
     justify-content: center;
 }
-section img{
-    width: auto;
-    height: 15em;
-}
-
 #pokeball{
     width: auto;
-    height: 15em;
+    height: 20em;
 }
