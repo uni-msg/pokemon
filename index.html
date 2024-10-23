@@ -17,7 +17,7 @@
         </header>
         <section>
             <abbr title="mira en las entrañas">
-                <a id="downloadLink" download="contrasena.pdf" href="./recursos/info.txt" target="_blank">
+                <a id="downloadLink" download="contrasena.txt" href="./recursos/info.txt">
                     <img id="pokeball" src="./recursos/ball1.jfif" >
                 </a>
             </abbr>
@@ -25,9 +25,9 @@
 
         <script>
             // Agregar un evento de clic a la imagen
-            downloadLink = document.getElementById('downloadLink');
-            pokeball = document.getElementById('pokeball');
-            pokeball.addEventListener('click', () => {
+            const downloadLink = document.getElementById('downloadLink');
+            const pokeball = document.getElementById('pokeball');
+            downloadLink.addEventListener('click', () => {
                 // Cambiar la URL de la imagen
                 if (pokeball.src.endsWith('./recursos/ball1.jfif')) {
                     pokeball.src = './recursos/ball2.jfif'; // Cambia a ball2.jfif si es ball1.jfif
