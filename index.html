@@ -25,14 +25,15 @@
 
         <script>
             // Agregar un evento de clic a la imagen
-            const downloadLink = document.getElementById('downloadLink');
-            const pokeball = document.getElementById('pokeball');
+            downloadLink = document.getElementById('downloadLink');
+            pokeball = document.getElementById('pokeball');
             downloadLink.addEventListener('click', () => {
                 // Cambiar la URL de la imagen
-                if (pokeball.src.endsWith('./recursos/ball1.jfif')) {
-                    pokeball.src = './recursos/ball2.jfif'; // Cambia a ball2.jfif si es ball1.jfif
+                if (pokeball.src.endsWith('ball1.jfif')) {
+                    pokeball.src = './recursos/ball2.jfif'; 
                 } else {
-                    pokeball.src = './recursos/ball1.jfif'; // Cambia de vuelta a ball1.jfif
+                    downloadLink.href='#downloadLink';
+                    pokeball.src = './recursos/ball1.jfif';
                 }
             });
 
