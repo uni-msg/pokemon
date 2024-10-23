@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> POKEMON </title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <t1>
+                ¿QUIEN ES ESTE POKEMON?
+            </t1>
+            <p>
+                Convierte los nutrientes de su dieta en aceite, que almacena en el fruto de la cabeza.
+                Puede pasar una semana sin beber ni comer nada.
+            </p>
+        </header>
+        <section>
+            <abbr title="mira en las entrañas">
+                <a id="downloadLink" download="contrasena.pdf" href="./recursos/info.txt" target="_blank">
+                    <img id="pokeball" src="./recursos/ball1.jfif" >
+                </a>
+            </abbr>
+        </section>
+
+        <script>
+            // Agregar un evento de clic a la imagen
+            downloadLink = document.getElementById('downloadLink');
+            pokeball = document.getElementById('pokeball');
+            pokeball.addEventListener('click', () => {
+                // Cambiar la URL de la imagen
+                if (pokeball.src.endsWith('./recursos/ball1.jfif')) {
+                    pokeball.src = './recursos/ball2.jfif'; // Cambia a ball2.jfif si es ball1.jfif
+                } else {
+                    pokeball.src = './recursos/ball1.jfif'; // Cambia de vuelta a ball1.jfif
+                }
+            });
+
+        </script>
+    </body>
+</html>

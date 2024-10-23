@@ -1,0 +1,20 @@
+header{
+    padding: 1em 2em 1em 2em;
+    background-color: #d0cfcf;
+    border-radius: 0.5em;
+}
+section{
+    margin: 1em 1em 1em 1em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+section img{
+    width: auto;
+    height: 15em;
+}
+
+#pokeball{
+    width: auto;
+    height: 15em;
+}
